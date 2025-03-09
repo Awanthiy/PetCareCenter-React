@@ -1,0 +1,84 @@
+/* Contact container */
+.contact-container {
+    text-align: center;
+    padding: 50px;
+    background-image: url('../../assets/c2.png');
+  /* Add the background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-container h1 {
+    font-size: 36px;
+    color: #ffffff;
+  }
+  
+  .contact-container p {
+    font-size: 18px;
+    margin: 10px 0 30px;
+    color: #f0f0f0;
+  }
+  
+  /* Contact form */
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.5); /* Slightly transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    color: #003366;
+    margin-bottom: 8px;
+    text-align: left;
+    margin-left: 60px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 80%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #8AC6D9;
+    box-shadow: 0 0 5px rgba(138, 198, 217, 0.5);
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button {
+    background-color: #0ab0da;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #00509e;
+  }
+  

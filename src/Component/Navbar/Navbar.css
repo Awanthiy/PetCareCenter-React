@@ -1,0 +1,77 @@
+.navbar {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom: 1px solid #f0f0f0;
+  font-family: 'Aclonica', sans-serif;
+  padding: 1rem;
+  position: sticky; /* Keeps the navbar in place while scrolling */
+  top: 0;           /* Sticks the navbar to the top of the page */
+  z-index: 1000;    /* Ensures the navbar stays above other elements */
+  background-color: #fff; /* Add a background color for visibility */
+}
+ 
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  height: 60px;
+  margin-right: 0.7rem;
+}
+
+.navbar-logo span {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 4rem;
+  margin: 0;
+  padding: 0;
+  margin-right: 40px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover,
+.navbar-links li a.active {
+  color: #00bcd4;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.language-dropdown {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.navbar-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon {
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}

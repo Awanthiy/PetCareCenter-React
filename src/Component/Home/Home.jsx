@@ -4,6 +4,7 @@ import bg3 from '../../assets/bg3.png'; // Puppy image
 
 const Home = () => {
   return (
+    <section id="home">
     <div className="home">
       <div className="content">
         <div className="text-section">
@@ -15,7 +16,7 @@ const Home = () => {
           <img src={bg3} alt="Puppy" className="puppy-image" />
         </div>
       </div>
-    </div>
+    </div></section>
   );
 };
 

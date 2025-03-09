@@ -1,0 +1,43 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    background-color: #fff7e7;
+  }
+  
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-image {
+    margin-top: 100px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+     
+  }
+  
+  .text-section2 {
+   
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .text-section2 h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .text-section2 p {
+    margin-top: 100px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 100px;
+  }
+  
